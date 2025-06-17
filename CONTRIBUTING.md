@@ -7,9 +7,8 @@ We welcome contributions from everyone! Whether you're fixing bugs, improving do
 ## 📋 Contribution Guidelines
 
 ### 1. Fork the Repository
-Click the **Fork** button at the top right of this repository, then clone your fork locally:
 
-```bash
+Click the **Fork** button at the top right of this repository, then clone your fork locally:
 git clone https://github.com/your-username/Hospital_Management_System.git
 
 2. Create a Feature Branch
@@ -39,3 +38,5 @@ Please be respectful and inclusive in all interactions. This project follows the
 💡 Need Help?
 If you’re unsure about anything, feel free to open an Issue or email me at:
 📧 prasannakumarreddy003@gmail.com
+
+Thanks for making this project better! 💻🚀
