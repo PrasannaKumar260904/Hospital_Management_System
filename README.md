@@ -1,5 +1,11 @@
 # 🏥 Hospital Management System
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/PrasannaKumar260904/Hospital_Management_System)
+![GitHub contributors](https://img.shields.io/github/contributors/PrasannaKumar260904/Hospital_Management_System)
+![GitHub last commit](https://img.shields.io/github/last-commit/PrasannaKumar260904/Hospital_Management_System)
+[![Stars](https://img.shields.io/github/stars/PrasannaKumar260904/Hospital_Management_System?style=social)](https://github.com/PrasannaKumar260904/Hospital_Management_System/stargazers)
 
+---
 A web-based application designed to manage hospital operations such as patient registration, appointment scheduling, doctor records, and admin control. Built using Java, JSP, Servlets, and MySQL, and deployed using Apache Tomcat.
 
 ---
