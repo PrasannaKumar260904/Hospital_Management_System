@@ -1,7 +1,6 @@
-# Dockerfile (put in project root)
 FROM maven:3.8.4-openjdk-17 AS build
 WORKDIR /app
-COPY . .
+COPY Hospital_Management_System/ .
 RUN mvn clean package
 
 FROM tomcat:9.0
