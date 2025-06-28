@@ -18,18 +18,28 @@ A web-based application designed to manage hospital operations such as patient r
 - 🗃️ Admin Dashboard
 - 🔐 Secure Login System with OTP for password reset
 - 📊 View Appointments and Medical Records
+- 🐳 Dockerized and deployed using Railway  
+
+---
+
+## 🚀 Live Demo
+
+Access the deployed app here:  
+👉 [hospitalmanagementsystem-production-2b0a.up.railway.app](https://hospitalmanagementsystem-production-2b0a.up.railway.app)
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Layer          | Technology                            |
-|----------------|----------------------------------------|
-| Frontend       | HTML, CSS, JSP, Bootstrap              |
-| Backend        | Java, Servlets                         |
-| Database       | MySQL                                  |
-| Server         | Apache Tomcat                          |
-| Build Tool     | Maven (`pom.xml`)                      |
+
+| Layer        | Technology                         |
+|--------------|-------------------------------------|
+| Frontend     | HTML, CSS, JSP, Bootstrap           |
+| Backend      | Java, Servlets                      |
+| Database     | MySQL                               |
+| Server       | Apache Tomcat (via Docker)          |
+| Build Tool   | Maven (`pom.xml`)                   |
+| Deployment   | Docker, Railway                     |
 
 ---
 
@@ -53,7 +63,15 @@ A web-based application designed to manage hospital operations such as patient r
    - Deploy the project to Tomcat
    - Access it via:  
      `http://localhost:8080/Hospital_Management_System`
+     
+🐳 Docker Deployment 
+To run using Docker and Maven:
 
+docker build -t hospitalapp .
+docker run -p 8080:8080 hospitalapp
+
+Then access:
+👉 http://localhost:8080
 ---
 
 ## 📂 Project Structure
@@ -64,6 +82,7 @@ Hospital_Management_System/
 │   └── main/java/         # Java backend code
 │   └── main/webapp/       # JSPs and frontend             
 ├── target/                # Compiled classes (generated)
+├── Dockerfile             # For containerization
 ├── pom.xml                # Maven build file
 └── README.md
 ```
